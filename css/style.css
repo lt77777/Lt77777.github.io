@@ -522,11 +522,20 @@ footer {
   margin-top: 1.4rem;
 }
 
+.views a {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+}
+
 .views img,
 .views canvas,
 .views iframe {
-  max-width: 180px;
+  display: block;
+  width: 100%;
+  max-width: 600px;
   height: auto;
+  border-radius: 8px;
 }
 
 /* Responsive */
